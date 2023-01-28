@@ -49,5 +49,5 @@ function showThink() {
   slides[slideIndex-1].style.animation = "fade 3s linear infinite";
   slides[slideIndex-1].style.display = "block";
   
-  setTimeout(showThink, 3000); // Change image every 2 seconds
+  setTimeout(showThink, 6000); // Change image every 2 seconds
 }

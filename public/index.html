@@ -17,7 +17,7 @@
   <!--header -->
   <header>
   <!--navbar -->
-   <nav class="bg-black  flex flex-col lg:flex-row gap-10 items-center justify-around  p-2">
+   <nav class="bg-black  flex flex-col lg:flex-row gap-10 items-center justify-around  p-2 fixed top-0 left-0 right-0 z-10">
     <div class="flex justify-center items-center  " >  
       <!--menu -->  
       <div class="hamburger hamburger--collapse absolute top-2 left-3 p-2"  id="menu-hamberger">
@@ -28,7 +28,10 @@
       <!--menu -->
        <!--logo -->
       <div>
-        <a href="" class="text-white text-xl font-bold font-Oswald gap-3"><img src="img/inferc_logo-removebg-preview.png" style="height: 48px;" alt="logo-interfac" class="inline" >INTERFAC </a>
+        <a href="" class="text-white text-xl font-bold font-Oswald gap-3">
+          <img src="img/inferc_logo-removebg-preview.png" style="height: 48px;" alt="logo-interfac" class="inline" >
+          INTERFAC
+        </a>
       </div>
       <!--logo -->
       <div  class="absolute top-2 right-3 p-2">
@@ -39,14 +42,14 @@
     <div class="flex gap-10 flex-wrap items-center justify-center" id="nav-links">
       <div class="navlinks flex flex-col md:flex-row gap-5">
         <div><a class="nav-link nav_links_content nav_links_content_hover" href="">Accueil</a></div>
-        <div><a class="text-white  text-md nav_links_content nav_links_content_hover"  href="">Nos Enseigments</a></div>
+        <div><a class="text-white text-md nav_links_content nav_links_content_hover"  href="">Nos Enseigments</a></div>
         <div><a class="text-white text-md nav_links_content nav_links_content_hover"  href="">Nos Predications</a></div>
         <div><a class="text-white text-md nav_links_content nav_links_content_hover"  href="">Nos News</a></div>
         <div><a class="text-white text-md nav_links_content nav_links_content_hover"  href="">Nos Temoignages</a></div>
       </div>
       <div class="flex flex-wrap gap-5 justify-center p-2 items-center">
         <div class="bg-white px-10 py-1 rounded-3xl "><a class="text-black text-bold text-md font-bold"  href=" ">Faire un don</a></div>
-        <div class="bg-primary-color px-10 py-1 rounded-3xl "><a class="text-white text-bold text-md font-bold"  href=" ">Nous Contact</a></div>
+        <div class="bg-primary-color px-10 py-1 rounded-3xl "><a class="text-white text-bold text-md font-bold"  href=" ">Contacte Nous</a></div>
         <div>
           <img src="img/search1-svgrepo-com (2).svg" alt=""  id="search-btn-mobi-2"  srcset="" style="height:28px;" >
         </div>
@@ -56,32 +59,31 @@
    </nav>
    <!--navbar -->
     <!--slider-->
-   <div class=" h-screen" >
-    <div id="slider" class=" bg-fixed bg-cover" style="background-image: url('img/img1.jpeg');height: 70vh;" >
-      <div class="md:h-full flex flex-wrap justify-center gap-10 items-center" style="background-color: rgba(0, 0, 0, 0.61);">
-        <div>
-                <img src="img/inferc_logo-removebg-preview.png" alt="logo-interfac" >
+   <div>
+    <div id="slider" class=" bg-fixed bg-cover " style="background-image: url('img/img-\(8\).png');height: 80vh;" >
+      <div class=" flex flex-wrap justify-center gap-0 md:gap-10 items-center" style="background-color: rgba(0, 0, 0, 0.70);backdrop-filter: blur(3px);height: 80vh;">
+        <div class="mt-10 md:mt-0">
+                <img  src="img/inferc_logo-removebg-preview.png" alt="logo-interfac" >
         </div> 
-        <div  class="text-white text-lg font-bold justify-center">
-           <h2 class="text-poppins text-4xl text-primary-color">Bienvenu(e)</h2>
+        <div  class="welcome text-white text-lg font-bold px-2 md:p-0 ">
+           <h2 class="text-poppins text-2xl md:text-4xl text-primary-color">Bienvenu(e)</h2>
            <div class="font-light">Sur le site de la</div>
-           <div class="text-2xl font-medium">Cellule de Prière <strong>Interfac</strong>ultaire</div>
-           <div>
-            <div class="think ">
-              <div class="text-oswald text-primary-color">THEME DE L'ANNEE</div>
-              <div class="text-poppins text-white font-light w-80">Tous pour les saluts des Ames et edifications des saints   </div>
-             </div>
-             <div class="think" style="display: none;">
-              <div class="text-oswald text-primary-color" >DEVISE</div>
-              <div class="text-poppins text-white font-light w-80"> les saluts des Ames et edifications des saints   </div>
-             </div>
-             <div class="think" style="display: none;">
-              <div class="text-oswald text-primary-color" >PENSE DU JOUR</div>
-              <div class="text-poppins text-white font-light w-80"> les saluts des Ames et edifications des saints   </div>
-             </div>
-           </div>
-           
-           
+           <div class="md:text-4xl text-2xl font-medium">Cellule de Prière <strong>Interfac</strong>ultaire</div>
+           <div class="md:my-3 ">
+                  <div class="think ">
+                    <div class="text-oswald text-primary-color">THEME DE L'ANNEE</div>
+                    <div class="text-poppins text-white font-light w-80">Tous pour les saluts des Ames et edifications des saints   </div>
+                  </div>
+                  <div class="think" style="display: none;">
+                    <div class="text-oswald text-primary-color" >DEVISE</div>
+                    <div class="text-poppins text-white font-light w-80"> les saluts des Ames et edifications des saints   </div>
+                  </div>
+                  <div class="think" style="display: none;">
+                    <div class="text-oswald text-primary-color" >PENSE DU JOUR</div>
+                    <div class="text-poppins text-white font-light w-80"> les saluts des Ames et edifications des saints   </div>
+                  </div>
+          </div>
+             
         </div>
       </div> 
     </div>
@@ -90,9 +92,9 @@
   </header>
   <!--header -->
 
-  <main>
+  <main class="h-96">
     <section>
-      <h1 class="text-center text-white text-3xl py-4">Nos Services</h1>
+      <h1 class="text-center text-blacktext-3xl py-4">Nos Services</h1>
       <div>
         <div class=""> 
           <div></div>
@@ -104,8 +106,15 @@
   </main>
 
   <!--Footer 2-->
-  <section class="bg-black h-10">
-
+  <section class="h-16  bg-fixed bg-cover" style="background-image: url('img/img-\(8\).png');">
+    <div class="h-16 flex  justify-center  items-center" style="background-color: rgba(0, 0, 0, 0.70);">
+      <div>
+        <a href="" class="text-white text-xl font-bold font-Oswald gap-3">
+          <img src="img/inferc_logo-removebg-preview.png" style="height: 48px;" alt="logo-interfac" class="inline" >
+          INTERFAC
+        </a>
+      </div>
+    </div>
   </section>
   <section class="bg-black flex flex-wrap  p-5   md:justify-around">
     <section >
