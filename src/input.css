@@ -20,6 +20,9 @@
 .titre_content{
     @apply after:content-[''] after:block after:h-0.5 after:w-10 after:bg-primary-color after:rounded-3xl after:ease-in-out after:duration-300;
 }
+.transition{
+    @apply transition-all duration-500  ease-in-out;
+}
 
 
 #slider {
