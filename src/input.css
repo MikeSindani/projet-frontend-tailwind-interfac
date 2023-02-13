@@ -25,23 +25,5 @@
 }
 
 
-#slider {
-    animation: zoom 3s;
-}
-
-@keyframes zoom {
-    0%{
-        background-position-x: 0%;
-        background-size: 125%;
-    } 
-    50%{
-        background-position-x: 150px;
-        background-size: 110%;
-    }
-    100%{
-        background-position-x: 0%;
-        background-size: 125%;
-    }
-}
 
 
