@@ -11,8 +11,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
-    
-        
+
       }
 }
   
@@ -20,6 +19,12 @@
     border-radius: 10px;
     margin-top: 8px;
     vertical-align: middle;
+    filter: grayscale(75%);
+    transition: filter .5s ease-in-out;
+  }
+  .row img:hover {
+    filter: grayscale(5%);
+     
   }
   
   /* Style the buttons */

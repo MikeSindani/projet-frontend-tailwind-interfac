@@ -2,20 +2,22 @@ var menu_dropdown = document.getElementById("menu");
 
 // open/close the menu when the user clicks on the button
 function toggleMenu() {
-    if (menu_dropdown.classList.contains('hidden')) {
-        menu_dropdown.classList.remove('hidden');
+    if (menu_dropdown.classList.contains('md:hidden')) {
+        menu_dropdown.classList.remove('md:hidden');
     } else {
-        menu_dropdown.classList.add('hidden');
+        menu_dropdown.classList.add('md:hidden');
     }
 }
 
 // close the menu when the user clicks outside of it 
 window.onclick = function (event) {
     var dropdownWrapper = document.getElementById('dropdown-wrapper');
-    if (!dropdownWrapper.contains(event.target) && !menu_dropdown.classList.contains('hidden')) {
-        menu_dropdown.classList.add('hidden');
+    if (!dropdownWrapper.contains(event.target) && !menu_dropdown.classList.contains('md:hidden') && !menu_dropdown.classList.contains('hidden')) {
+        menu_dropdown.classList.add('md:hidden');
     }
 }
+
+
 
 //* activer anime on scroll 
 //AOS.init();
